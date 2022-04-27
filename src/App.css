@@ -1,8 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +31,135 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body{
+  overflow-x: hidden;
+  text-align: center;
+}
+.App {
+  text-align: center;
+}
+header{
+  position: relative;
+  margin: -1px -10px;
+  height:50px;
+  /* padding: 26px,42px; */
+  background-color: rgb(33, 197, 41);
+  box-shadow: 0  0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header h1{
+  font-weight: 500;
+  position: absolute;
+  float: left;
+  top:-18px;
+  bottom: 50px;
+  display: block;
+  padding-left: 30px;
+  color: #fff;
+  font-family: "Mclaren" , cursive;
+}
+.note{
+  text-align: left;
+  position: relative;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 2px 5px;
+  width: 20rem;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  display: inline-table;
+}
+.note h1{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.note p{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+footer
+{
+
+  position: relative;
+  top: 10em;
+  vertical-align:bottom;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+}
+footer p{
+  color: rgb(133, 127, 127);
+}
+.anchor{
+  color:rgb(137, 187, 187);
+}
+
+.align{
+  text-align: left;
+  position: relative;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 2px 5px;
+  width: 40vw;
+  height: 130px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  display: inline-flex;
+ }
+ input{
+   position: absolute;
+   border: none;
+   width: 15vw;
+   outline: none;
+   font-size: 15px;
+   font-style: bold;
+   font-size: medium;
+   float: left;
+   
+ }
+
+ .button1
+ {
+    background-color: rgb(226, 186, 7);
+    position:inherit;
+    border-radius: 50%;
+    top: 100px;
+    width: 60px;
+    left: 5vw;
+    right: 10px;
+    height: 30px;
+    font-size: large;
+    padding-right: 5px;
+ }
+ textarea{
+    margin-top: 30px;
+    border: none;
+    outline: none; 
+    width: 20vw;
+    height: 50%;
+    resize: none;
+    float: left;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width: 800px) {
+    .button1{
+      left: 12vw;
+      background-color: rgb(226, 186, 7);
+      position:inherit;
+      border-radius: 50%;
+      top: 100px;
+      width: 60px;
+      right: 10px;
+      height: 30px;
+      font-size: large;
+    }
+}
+.btnDel{
+  display: flex;
+  float: right;
 }
